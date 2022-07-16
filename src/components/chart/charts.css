@@ -1,0 +1,36 @@
+.chart-container {
+    width: 95vw;
+    height: 80vh;
+    margin-bottom: 8vh;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 5vh 2vw -1vh;
+}
+
+
+canvas {
+    width: 80vw;
+    height: 60vh;
+    padding: 20px;
+    border: solid 1px black;
+    background-color: #CBC5C1;
+}
+
+.chart-buttons {
+    display: flex;
+    height: 5vh;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2vh auto;
+}
+
+.chart-button {
+    width: 8vw;
+    background-color: #A2AAB0;
+    cursor: pointer;
+}
+
+.chart-button:focus {
+    border: 3px solid black;
+    font-weight: bold;
+    background-color: #4C586F;
+    color: #CBC5C1;
+}
