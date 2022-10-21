@@ -1,3 +1,4 @@
+
 .coin-container {
     display: flex;
     flex-direction: column;
@@ -81,4 +82,36 @@
   cursor: pointer;
 }
 
-
+@media only screen and (max-width: 600px) {
+    .coin-container {
+        margin: auto;
+        max-width: 90vw;
+    }
+    .coin-row {
+        max-width: 90vw;
+        height: 30vh;
+        flex-wrap: wrap;
+    }
+    .coin {
+        justify-content: center;
+        width: 90vw;
+    }
+    .coin img {
+        width: 8vw;
+        height: 4vh;
+    }
+    .coin-data {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .coin-data > p {
+        width: 90vw;
+        margin: auto;
+    }
+    
+    .arrow {
+        margin: 0;
+        padding: 0.4rem;
+    }
+}
